@@ -1,0 +1,40 @@
+/* Style for the container */
+.mat-elevation-z8 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow-x: auto; /* Handles overflow for smaller screens */
+    box-shadow: none; /* Optional: Remove elevation shadow if desired */
+  }
+  
+  /* Ensures the table uses full available width while centered */
+  .full-width-table {
+    width: 100%;
+    min-width: 300px; /* Minimum width to maintain usability */
+    border-collapse: collapse; /* Ensures borders between cells collapse into a single border */
+  }
+  
+  /* Table, header, and cell styling */
+  mat-table, mat-header-cell, mat-cell {
+    border: 1px solid #dee2e6; /* Light grey border, similar to Bootstrap's tables */
+  }
+  
+  mat-header-cell, mat-cell {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    padding: 10px; /* Adequate padding for readability */
+  }
+  
+  /* Styling for header row to distinguish it from other rows */
+  mat-header-row {
+    background-color: #f8f9fa; /* Light background color for the header row */
+  }
+  
+  /* Additional styles for responsiveness */
+  @media (max-width: 600px) {
+    .mat-elevation-z8 {
+      padding: 10px; /* Less padding on smaller screens */
+    }
+  }
+  

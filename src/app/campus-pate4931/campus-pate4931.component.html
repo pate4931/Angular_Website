@@ -1,0 +1,17 @@
+<div class="campus-container">
+    <h3>Sheridan College – Select a Campus to View Address</h3>
+    <mat-form-field appearance="fill">
+      <mat-label>Select a Campus</mat-label>
+      <mat-select (selectionChange)="onSelectCampus($event.value)">
+        <mat-option *ngFor="let campus of campusData" [value]="campus.campus">
+          {{ campus.campus }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <div>
+        <p class="campus-name">{{ selectedCampusName }}</p>
+        <p class="campus-address">{{ selectedCampusAddress }}</p>
+        <p class="campus-city">{{ selectedCampusCity }}</p>
+    </div>
+</div>

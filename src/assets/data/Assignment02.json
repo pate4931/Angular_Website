@@ -1,0 +1,41 @@
+{
+	"a2Personal" : {
+		"myFullName" : "Yashkumar Patel",
+		"sheridanID" : "991705950",
+		"sheridanLogin" : "pate4931",
+		"sheridanProgram" : "CST-Software Development and Network Engineering",
+		"sheridanEmail" : "pate4931@sheridancollege.ca"
+	},
+		"myBooks": [
+    {
+      "authorName": "Stephen R. Covey",
+      "bookTitle": "The 7 Habits of Highly Effective People",
+      "published": 1989
+    },
+    {
+      "authorName": "Dale Carnegie",
+      "bookTitle": "How to Win Friends and Influence People",
+      "published": 1936
+    },
+    {
+      "authorName": "James Clear",
+      "bookTitle": "Atomic Habits",
+      "published": 2018
+    },
+    {
+      "authorName": "Napoleon Hill",
+      "bookTitle": "Think and Grow Rich",
+      "published": 1937
+    },
+    {
+      "authorName": "Colleen Hoover",
+      "bookTitle": "Reminders of Him",
+      "published": 2022
+    }
+  ],
+	"campusData" : [
+		{"campus" : "Davis", "street" : "7899 McLaughlin Blvd", "city" : "Brampton"},
+		{"campus" : "HMC", "street" : "4180 Duke of York Blvd", "city" : "Mississauga"},
+		{"campus" : "Trafalgar", "street" : "1430 Trafalgar Road", "city" : "Oakville"}
+	]
+}

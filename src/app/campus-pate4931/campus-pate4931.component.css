@@ -1,0 +1,51 @@
+.campus-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers items horizontally in the container */
+    justify-content: center; /* Centers items vertically if there's enough vertical space */
+    text-align: center; /* Ensures text within the elements is centered */
+    width: 100%; /* Takes full width */
+    color: #2c3e50; /* General text color */
+    font-family: Arial, sans-serif; /* Ensures font consistency */
+  }
+  
+  .campus-container h3 {
+    color: #0047AB; /* Dark blue */
+    font-weight: bold;
+    margin: 20px 0; /* Adds vertical space above and below the header */
+  }
+  
+  .campus-container mat-form-field {
+    width: 100%; /* Ensures form field takes full available width */
+    max-width: 500px; /* Limits the form field width for better aesthetics */
+    margin-bottom: 20px; /* Space below the form field */
+  }
+  
+  .campus-container p {
+    color: #2c3e50; /* Dark gray-blue, consistent with the general text color */
+    font-weight: bold;
+    margin: 5px 0; /* Small spacing for separation */
+  }
+  
+  /* Additional styles for each type of information, if needed */
+  .campus-container .campus-name {
+    color: #007BFF; /* Example: Blue color for campus name */
+  }
+  
+  .campus-container .campus-address {
+    color: #28A745; /* Example: Green color for address */
+  }
+  
+  .campus-container .campus-city {
+    color: #DC3545; /* Example: Red color for city */
+  }
+  
+  
+  
+  /* Style adjustments for mobile responsiveness */
+  @media (max-width: 600px) {
+    mat-form-field {
+      width: 90%; /* Slightly smaller width on smaller screens */
+    }
+  }
+  
